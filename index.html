@@ -1,168 +1,131 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>GitHub Tutorial by bmuellerhstat</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>GitHub Tutorial by mahmoudelbayoumi</title>
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">GitHub Tutorial</h1>
-      <h2 class="project-tagline">It&#39;s just the beGITning</h2>
-      <a href="https://github.com/bmuellerhstat/github-tutorial" class="btn">View on GitHub</a>
-      <a href="https://github.com/bmuellerhstat/github-tutorial/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/bmuellerhstat/github-tutorial/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <a id="forkme_banner" href="https://github.com/mahmoudelbayoumi/github-tutorial">View on GitHub</a>
+    <div class="shell">
 
-    <section class="main-content">
-      <h1>
-<a id="github-tutorial-project" class="anchor" href="#github-tutorial-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial Project</h1>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>GitHub Tutorial</h1>
+            <h2>It&#39;s just the beGITning</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-<h2>
-<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Overview</em>
-</h2>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/mahmoudelbayoumi/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/mahmoudelbayoumi/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-<ul>
-<li>Using markdown syntax, display all of your knowledge about <strong>Git</strong> and <strong>Github</strong> in a single README file.<br>
-</li>
-</ul>
 
-<h2>
-<a id="directions" class="anchor" href="#directions" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Directions</em>
-</h2>
+      <span class="banner-fix"></span>
 
-<ol>
-<li>Fork and clone this repository.</li>
-<li>Notice there are two files:<br>
-a. <code>README.md</code> is where you will find a template to use as a starting point for your tutorial.  This is where you'll do your work.<br>
-b. <code>directions.md</code> is where you will find these directions.</li>
-<li>As you edit, make a commit every once in a while.  Don't forget to push!<br>
-</li>
-<li>When you are finished, submit your remote repository URL (see class website).<br>
-</li>
-</ol>
 
-<h2>
-<a id="topics" class="anchor" href="#topics" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Topics</em>
-</h2>
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
 
-<ul>
-<li>git vs github overview
-
-<ul>
-<li>explain what each is, and the difference between the two</li>
-<li>[10%]</li>
-</ul>
-</li>
-<li>one-time setup
-
-<ul>
-<li>github account, SSH key, <code>git config</code> (user.name &amp; user.email)</li>
-<li>[15%]</li>
-</ul>
-</li>
-<li>repo setup
-
-<ul>
-<li>
-<code>init</code>, your first <code>add</code> &amp; <code>commit</code>, new repo on github, remote</li>
-<li>[20%]</li>
-</ul>
-</li>
-<li>ongoing workflow &amp; commands
-
-<ul>
-<li>status, add, commit, push</li>
-<li>[40%]</li>
-</ul>
-</li>
-</ul>
-
-<p><em>NOTE: for each command, you should explain:</em></p>
-
-<ul>
-<li>what each command does (explain the concept)</li>
-<li>how to actually use it (correct syntax)</li>
-</ul>
-
-<h2>
-<a id="other-requirements" class="anchor" href="#other-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Other Requirements</em>
-</h2>
-
-<ul>
-<li>use MD syntax <em>(headings, bold, italics, etc)</em>
-
-<ul>
-<li>[5%]</li>
-</ul>
-</li>
-<li>use list(s) <em>(ordered and/or unordered)</em>
-
-<ul>
-<li>[5%]</li>
-</ul>
-</li>
-<li>use code snippets <em>(single and/or multi-line)</em>
-
-<ul>
-<li>[5%]</li>
-</ul>
-</li>
-</ul>
-
-<h3>
-<a id="extra-credit" class="anchor" href="#extra-credit" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Extra Credit</em>
-</h3>
-
-<ul>
-<li>error handling
-
-<ul>
-<li>what to do if you did <code>init</code> in the wrong directory<br>
-</li>
-<li>how to completely remove a repository (local &amp; remote)<br>
-</li>
-<li>[10%]<br>
-</li>
-</ul>
-</li>
-<li>collaboration<br>
-
-<ul>
-<li>fork &amp; <code>clone</code>, pull requests and <code>pull</code><br>
-</li>
-<li>[10%]<br>
-</li>
-</ul>
-</li>
-</ul>
+<p><em>by Mahmoud Elbayoummi</em></p>
 
 <hr>
 
-<h3>
-<a id="a-note-about-plagiarism" class="anchor" href="#a-note-about-plagiarism" aria-hidden="true"><span class="octicon octicon-link"></span></a>A note about plagiarism</h3>
-
-<p>You should be typing <em>every single word</em>.  It is ok to refer to your notes, the slides, the internet, and even your classmates for help.  However, <strong>intellectual property is to be regarded highly in this class</strong>.  You should be explaining everything in your own words.  If you are copying/pasting, you are not learning.</p>
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
 
 <h3>
-<a id="final-thoughts" class="anchor" href="#final-thoughts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Final thoughts</h3>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git:</h3>
 
-<p>The best way to learn something is through repeated practice.<br>
-Feel free to <strong>practice</strong> all of these concepts on your own to understand them better.<br>
-Don't forget to use <a href="http://www.google.com">Google</a> if you get stuck!</p>
+<p><em>1. git allows us to take snapshots.</em></p>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/bmuellerhstat/github-tutorial">GitHub Tutorial</a> is maintained by <a href="https://github.com/bmuellerhstat">bmuellerhstat</a>.</span>
+<h3>
+<a id="github" class="anchor" href="#github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Github:</h3>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+<p><em>2. github allowa us to take git snapshots and store them in the cloud</em></p>
+
+<p><em>3. the differnce between git and github is that Git is the distributed version control system, also Git is responsible for keeping track of changes to content  and it provides mechanisms for sharing that content with others. GitHub is a company that provides Git repository hosing.</em></p>
+
+<p><em>4. git needs github so it can work</em></p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p><em>1. first step you would need a GitHub account which you can get on the website itself.</em></p>
+
+<p><em>2. seocnd you would have to Go to sign up in the account.</em></p>
+
+<p><em>3. you have to follow the instructions  to create your account.</em></p>
+
+<p><em>4. And lastely you made your very own account on GitHub.</em></p>
+
+<h3>
+<a id="ssh" class="anchor" href="#ssh" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SSH</h3>
+
+<p><em>SSH in Github when its  used when you start making a repo on cloud9.i0 you have to check that you  clicked on SSH when creating a repo.</em></p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p><em>There are a few things that you have to know when using GitHub when your making your repo on cloud9.i0 there are some commands that you have to learn that so you can hvae eveyreing right.</em></p>
+
+<h4>
+<a id="these-are-some-of-the-commands" class="anchor" href="#these-are-some-of-the-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>These are some of the commands</h4>
+
+<p><em>1. git push</em></p>
+
+<p><em>2. git status</em></p>
+
+<p><em>3. git add</em></p>
+
+<p><em>4. And lastely git commit -m</em></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/mahmoudelbayoumi">mahmoudelbayoumi</a> can be found on <a href="https://github.com/mahmoudelbayoumi/github-tutorial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
 
-    </section>
+    </div>
 
-  
+    
   </body>
 </html>
